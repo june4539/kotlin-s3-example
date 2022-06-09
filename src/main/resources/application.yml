@@ -1,0 +1,12 @@
+cloud:
+  aws:
+    credentials:
+      accessKey: accessKey
+      secretKey: secretKey
+    s3:
+      bucket: mos-s3-test
+      dir: images/
+    region:
+      static: ap-northeast-2
+    stack:
+      auto: false
